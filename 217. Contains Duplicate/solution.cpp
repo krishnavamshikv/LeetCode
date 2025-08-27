@@ -12,9 +12,9 @@ public:
   // This will take n square time , not efficient
 
   // bool containsDuplicate(vector<int>& nums) {
-  //   for (int i = 0; i < nums.size(); i++) {       #current index
-  //     for (int j = i + 1; j < nums.size(); j++) { # check all other elements 
-  //       if (nums[i] == nums[j]) return true;      # return true if you find the duplicate
+  //   for (int i = 0; i < nums.size(); i++) {       // current index
+  //     for (int j = i + 1; j < nums.size(); j++) { // check all other elements 
+  //       if (nums[i] == nums[j]) return true;      // return true if you find the duplicate
   //     }
   //   }
   //   return  false;
